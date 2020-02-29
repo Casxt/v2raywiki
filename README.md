@@ -8,6 +8,7 @@ bash <(curl -L -s https://install.direct/go.sh)
 ## acme
 ```sh 
 curl  https://get.acme.sh | sh
+source .bashrc
 export Ali_Key=""
 export Ali_Secret=""
 acme.sh --issue --dns dns_ali -d xxxx.com
